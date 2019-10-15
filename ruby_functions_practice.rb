@@ -94,5 +94,5 @@ case num
   end
 
   def volume_of_sphere(radius)
-    return (4/3) * 3.14 * (radius ** 3)
+    return 4.0/3.0 * 3.14 * radius ** 3
   end
