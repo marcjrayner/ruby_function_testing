@@ -96,3 +96,10 @@ case num
   def volume_of_sphere(radius)
     return 4.0/3.0 * 3.14 * radius ** 3
   end
+
+  def fahrenheit_to_celsius(far)
+    cel = (far - 32) * 5/9.0
+    return cel.round(1)
+  end
+
+puts fahrenheit_to_celsius(100)
